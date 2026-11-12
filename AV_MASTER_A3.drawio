@@ -1,9 +1,9 @@
 <mxfile host="app.diagrams.net" vars="{&quot;projekt&quot;:&quot;PROJEKTNAME&quot;,&quot;kunde&quot;:&quot;AUFTRAGGEBER&quot;,&quot;ort&quot;:&quot;SPIELSTÄTTE / ORT&quot;,&quot;erstellt&quot;:&quot;NAME&quot;,&quot;geprueft&quot;:&quot;—&quot;,&quot;datum&quot;:&quot;TT.MM.JJJJ&quot;,&quot;revision&quot;:&quot;00&quot;,&quot;status&quot;:&quot;ENTWURF&quot;,&quot;plannummer&quot;:&quot;AV-001&quot;}" pages="2">
   <diagram id="signal" name="Signalplan">
-    <mxGraphModel dx="2475" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="frame" parent="0" style="locked=1;" value="01 – Rahmen + Schriftfeld (gesperrt)" />
+        <mxCell id="frame" parent="0" style="locked=0;" value="01 – Rahmen + Schriftfeld (gesperrt)" />
         <mxCell id="c21" parent="frame" style="rounded=0;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.5;connectable=0;allowArrows=0;movable=0;resizable=0;rotatable=0;cloneable=0;pointerEvents=0;container=0;editable=0;deletable=1;locked=0;" value="" vertex="1">
           <mxGeometry height="239.99999999999997" width="620" x="1020" y="920" as="geometry" />
         </mxCell>
@@ -139,10 +139,10 @@
             <mxGeometry height="26.18181818181818" width="90" x="1540" y="1131.6363636363635" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="-qM5Gx3AyPPSr2g_uy-e-14" parent="frame" style="rounded=0;whiteSpace=wrap;html=1;connectable=1;allowArrows=0;expand=0;editable=0;movable=0;resizable=0;rotatable=0;deletable=0;locked=0;cloneable=0;pointerEvents=0;" value="" vertex="1">
-          <mxGeometry height="99" width="130" x="880" y="1061" as="geometry" />
+        <mxCell id="-qM5Gx3AyPPSr2g_uy-e-14" parent="frame" style="rounded=0;whiteSpace=wrap;html=1;connectable=1;allowArrows=0;expand=0;editable=0;movable=0;resizable=0;rotatable=1;deletable=1;locked=0;cloneable=0;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="100" width="130" x="880" y="1060" as="geometry" />
         </mxCell>
-        <mxCell id="-qM5Gx3AyPPSr2g_uy-e-10" connectable="0" parent="frame" style="group" value="" vertex="1">
+        <mxCell id="-qM5Gx3AyPPSr2g_uy-e-10" connectable="0" parent="frame" style="group;movable=0;resizable=0;editable=0;" value="" vertex="1">
           <mxGeometry height="99" width="195" x="890" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="-qM5Gx3AyPPSr2g_uy-e-3" connectable="0" parent="-qM5Gx3AyPPSr2g_uy-e-10" style="group" value="" vertex="1">
