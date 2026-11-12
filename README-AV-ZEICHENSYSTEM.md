@@ -31,3 +31,8 @@ In draw.io **Extras → Konfiguration** öffnen und den Inhalt von `drawio-confi
 
 ## Hinweise
 Das Raster sind 10 draw.io-Zeicheneinheiten, nicht automatisch typografische Punkte. Das Datum im Titelblock ist eine bewusst feste, editierbare Variable. Die Bibliotheken werden aus dem Branch `main` geladen; Änderungen dort sind beim nächsten Laden sichtbar.
+
+## Hinweis zum Startlink
+Der Link verwendet bewusst `splash=1`: draw.io benötigt bei `?create=<URL>` den Erstellen-Dialog. Bei `splash=0` kann der Dialog unterdrückt werden und die Zeichenfläche bleibt ohne Dokument leer.
+
+Nach dem Aufruf erscheint die Vorlagenvorschau bzw. der Dialog für eine neue Zeichnung. Dort eine Speicheroption auswählen und **Erstellen** bestätigen. Dadurch wird aus der A3-Mastervorlage eine eigene Datei mit beiden Reitern. Das GitHub-Original bleibt unverändert.
