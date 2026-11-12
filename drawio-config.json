@@ -18,5 +18,10 @@
   "expandLibraries": false,
   "defaultGridEnabled": true,
   "defaultGridSize": 10,
-  "defaultConnectionArrowsEnabled": false
+  "defaultConnectionArrowsEnabled": false,
+  "sidebarWidth": 320,
+  "sidebarTitles": true,
+  "sidebarTitleSize": 11,
+  "thumbWidth": 100,
+  "thumbHeight": 70
 }
