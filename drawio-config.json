@@ -1,0 +1,21 @@
+{
+  "version": "AV-2026-11-12",
+  "defaultLibraries": "general;basic;arrows2",
+  "enabledLibraries": [
+    "general",
+    "basic",
+    "arrows2"
+  ],
+  "defaultCustomLibraries": [
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F01_Basis.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F02_Audio.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F03_Video.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F04_Netzwerk_Steuerung.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F05_Stecker_Kabel.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F06_Patchfelder_Layout.xml"
+  ],
+  "appendCustomLibraries": false,
+  "expandLibraries": false,
+  "defaultGridEnabled": true,
+  "defaultGridSize": 10
+}
