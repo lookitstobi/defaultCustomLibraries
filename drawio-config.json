@@ -1,5 +1,5 @@
 {
-  "version": "AV-2026-11-12",
+  "version": "AV-2026-11-12-no-hover-arrows",
   "defaultLibraries": "general;basic;arrows2",
   "enabledLibraries": [
     "general",
@@ -17,5 +17,6 @@
   "appendCustomLibraries": false,
   "expandLibraries": false,
   "defaultGridEnabled": true,
-  "defaultGridSize": 10
+  "defaultGridSize": 10,
+  "defaultConnectionArrowsEnabled": false
 }
