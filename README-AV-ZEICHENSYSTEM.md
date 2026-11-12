@@ -36,3 +36,13 @@ Das Raster sind 10 draw.io-Zeicheneinheiten, nicht automatisch typografische Pun
 Der Link verwendet bewusst `splash=1`: draw.io benötigt bei `?create=<URL>` den Erstellen-Dialog. Bei `splash=0` kann der Dialog unterdrückt werden und die Zeichenfläche bleibt ohne Dokument leer.
 
 Nach dem Aufruf erscheint die Vorlagenvorschau bzw. der Dialog für eine neue Zeichnung. Dort eine Speicheroption auswählen und **Erstellen** bestätigen. Dadurch wird aus der A3-Mastervorlage eine eigene Datei mit beiden Reitern. Das GitHub-Original bleibt unverändert.
+
+## Asset-Update: Ghielmetti und mittige Anschlusspunkte
+
+- Die sechs vorhandenen Bibliotheken bleiben getrennt. Die Kategorie `06_Patchfelder_Layout.xml` enthält **7 neue Ghielmetti-Elemente**: 1×24 AV, 1×32 AV, 1×48 AV, 2×32 AV, 2×48 (schematisch), 8-Kanal-Ausschnitt und eine 8×8-Patchmatrix (schematisch).
+- **Alle 1.478 bisherigen Kreisports** haben genau einen festen Connection Point im Mittelpunkt (`points=[[0.5,0.5,0]]`), `perimeter=centerPerimeter` und `snapToPoint=1`. Richtungsrestriktionen der Ports wurden entfernt, damit sie sich nicht gegenseitig behindern.
+- Die Gerätecontainer, die echte Anschlussports besitzen, sind nicht mehr selbst mit Kabeln verbindbar (`connectable=0`), damit nicht irrtümlich an der Gerätekante angeschlossen wird.
+- Besondere Ausnahmen: freie Elemente ohne Portkreis behalten ihre bisherigen Anschlussmöglichkeiten. Die Kreuzungspunkte in der schematischen Matrix sind **nur grafische interne Knoten** und keine externen Steckplätze.
+- **Wichtige Einschränkung:** Ein einzelner Verbindungspunkt begrenzt in draw.io nicht die Anzahl gleichzeitig angeschlossener Linien. Die Darstellung führt sie auf denselben Mittelpunkt, erzwingt aber nicht „maximal ein Kabel“.
+- Ghielmetti-Kanallayouts sind schematische Planbausteine, keine mechanisch exakten Frontplattenzeichnungen. Normalisierung ist bewusst nicht vorausgewählt.
+- Bestehende Zeichnungsdateien enthalten weiterhin die bisher eingefügten Shapes. Ersetze diese aus der aktualisierten Library, wenn du die neuen Anschlussregeln brauchst.
