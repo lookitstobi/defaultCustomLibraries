@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" vars="{&quot;projekt&quot;:&quot;PROJEKTNAME&quot;,&quot;kunde&quot;:&quot;AUFTRAGGEBER&quot;,&quot;ort&quot;:&quot;SPIELSTÄTTE / ORT&quot;,&quot;erstellt&quot;:&quot;NAME&quot;,&quot;geprueft&quot;:&quot;—&quot;,&quot;datum&quot;:&quot;TT.MM.JJJJ&quot;,&quot;revision&quot;:&quot;00&quot;,&quot;status&quot;:&quot;ENTWURF&quot;,&quot;plannummer&quot;:&quot;AV-001&quot;,&quot;saal&quot;:&quot;SAAL / ABTEILUNG&quot;}">
   <diagram id="signal" name="Signalplan">
-    <mxGraphModel dx="2373" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="frame" parent="0" style="locked=1;" value="01 – Rahmen + Schriftfeld (gesperrt)" />
