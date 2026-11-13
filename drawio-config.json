@@ -1,5 +1,5 @@
 {
-  "version": "AV-2026-11-13-two-style-pages",
+  "version": "AV-2026-11-13-swimlane-containers",
   "defaultLibraries": "general;basic;arrows2",
   "enabledLibraries": [
     "general",
@@ -43,38 +43,45 @@
       null,
       {
         "title": "AV · Neutral",
-        "fill": "#F8FAFC",
-        "stroke": "#64748B"
+        "fill": "#64748B",
+        "stroke": "#64748B",
+        "font": "#FFFFFF"
       },
       {
         "title": "AV · Audio",
-        "fill": "#EFF6FF",
-        "stroke": "#2563EB"
+        "fill": "#2563EB",
+        "stroke": "#2563EB",
+        "font": "#FFFFFF"
       },
       {
         "title": "AV · Video",
-        "fill": "#F5F3FF",
-        "stroke": "#7C3AED"
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "font": "#FFFFFF"
       },
       {
         "title": "AV · Netzwerk",
-        "fill": "#ECFEFF",
-        "stroke": "#0891B2"
+        "fill": "#0891B2",
+        "stroke": "#0891B2",
+        "font": "#111827"
       },
       {
         "title": "AV · Steuerung",
-        "fill": "#FFF7ED",
-        "stroke": "#D97706"
+        "fill": "#D97706",
+        "stroke": "#D97706",
+        "font": "#111827"
       },
       {
         "title": "AV · Eingang",
-        "fill": "#F0FDFA",
-        "stroke": "#0F766E"
+        "fill": "#0F766E",
+        "stroke": "#0F766E",
+        "font": "#FFFFFF"
       },
       {
         "title": "AV · Installation",
-        "fill": "#F1F5F9",
-        "stroke": "#8292A6"
+        "fill": "#8292A6",
+        "stroke": "#8292A6",
+        "font": "#111827"
       }
     ],
     [

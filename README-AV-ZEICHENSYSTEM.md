@@ -1,6 +1,6 @@
 # AV-Zeichensystem für draw.io
 
-Eine A3-Masterdatei mit 10er-Raster, zwei Vorlagenseiten und zentralen Schriftfeld-Daten. Die bestehenden sechs AV-Libraries bleiben unverändert.
+Eine A3-Masterdatei mit 10er-Raster, zwei Vorlagenseiten und zentralen Schriftfeld-Daten. Dazu gehören sechs AV-Libraries.
 
 ## Neue Dateien
 - `AV_MASTER_A3.drawio`: **Signalplan** und **Verkabelungsplan**, A3 quer, 10er-Raster, Schriftfeld unten rechts, vier Ebenen. Die Ebene **01 – Rahmen + Schriftfeld** ist gesperrt.
@@ -54,3 +54,11 @@ Nach dem Aufruf erscheint die Vorlagenvorschau bzw. der Dialog für eine neue Ze
 - Gruppenstile der vorhandenen Assets: `recursiveResize=1`, `resizable=1`, `rotatable=1`. Damit werden Kinder beim proportionalen Skalieren und Rotieren als Gruppe mitgeführt. Bislang gesperrte Child-Transformations-Flags (`resizable=0`, `rotatable=0`, `movable=0`) wurden in den Container-Assets entfernt; Port-Connection-Points bleiben mittig.
 - Beschriftungen in Gerätecontainern: `whiteSpace=wrap;overflow=hidden`, damit überlaufender Text nicht außerhalb der vorgesehenen Felder gezeichnet wird. **Wichtig:** draw.io bietet keine zuverlässige native automatische Verringerung der Schriftgröße abhängig von der Containergröße. Bei extremer Verkleinerung bleibt die Schriftgröße gleich; Text bricht um oder wird abgeschnitten. Schriftgröße bei Bedarf über den Text-Tab anpassen. Beim proportionalen Resize möglichst die Seitenverhältnisse beibehalten.
 - Bereits in Zeichnungen eingefügte Assets werden durch Updates an der Library nicht automatisch ersetzt.
+
+## Update: Swimlane-Container
+
+- Geräte, Stecker, Patchfelder, Installationsblöcke und Zonen verwenden native Swimlane-Container mit direkt editierbarem Titel. Die beiden Endpunkte einer festen Hausverbindung sind separat beschriftbare Container innerhalb eines gemeinsam verschiebbaren Assets.
+- Der Body ist im hellen Modus `#E8E8E8` und im dunklen Modus `#191919`. Beschriftungen im Body verwenden `#333333` bzw. `#C8C8C8`. Die Signalfarben der Ports und die Verbindungspunkte in ihrer Mitte bleiben erhalten.
+- Die AV-Farbvorlagen in `drawio-config.json` setzen die Akzentfarbe für Kopf und Rahmen und die passende Titelschrift. Pro Container sind diese Farben auch über **Daten bearbeiten** (`avHeader`, `avOutline`, `avTitle`) änderbar. Nach einem Farbvorlagen-Klick gelten die direkt gesetzten Style-Farben.
+- Bei Geräten und Steckern bleiben seitliche Ports samt Labels beim Ändern der Breite an ihrer Kante. Die Portreihen der Geräte behalten ihren Abstand zur Oberseite. Wähle eine Höhe, die alle Reihen fasst. Patchfelder skalieren ihre innenliegenden Portreihen und Beschriftungsfelder gemeinsam. In Zonen und leere Installationscontainer lassen sich Shapes hineinziehen.
+- Bereits eingefügte Shapes übernehmen das neue Layout erst beim Ersetzen aus der aktualisierten Library.
