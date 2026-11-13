@@ -1,5 +1,5 @@
 {
-  "version": "AV-2026-11-13-style-presets-fixed",
+  "version": "AV-2026-11-13-two-style-pages",
   "defaultLibraries": "general;basic;arrows2",
   "enabledLibraries": [
     "general",
@@ -37,5 +37,90 @@
     "ECFEFF",
     "FFF7ED",
     "F0FDFA"
+  ],
+  "defaultColorSchemes": [
+    [
+      null,
+      {
+        "title": "AV · Neutral",
+        "fill": "#F8FAFC",
+        "stroke": "#64748B"
+      },
+      {
+        "title": "AV · Audio",
+        "fill": "#EFF6FF",
+        "stroke": "#2563EB"
+      },
+      {
+        "title": "AV · Video",
+        "fill": "#F5F3FF",
+        "stroke": "#7C3AED"
+      },
+      {
+        "title": "AV · Netzwerk",
+        "fill": "#ECFEFF",
+        "stroke": "#0891B2"
+      },
+      {
+        "title": "AV · Steuerung",
+        "fill": "#FFF7ED",
+        "stroke": "#D97706"
+      },
+      {
+        "title": "AV · Eingang",
+        "fill": "#F0FDFA",
+        "stroke": "#0F766E"
+      },
+      {
+        "title": "AV · Installation",
+        "fill": "#F1F5F9",
+        "stroke": "#8292A6"
+      }
+    ],
+    [
+      null,
+      {
+        "title": "Standard · Schwarz auf Weiß",
+        "fill": "#FFFFFF",
+        "stroke": "#111827",
+        "font": "#111827"
+      },
+      {
+        "title": "Standard · Weiß auf Schwarz",
+        "fill": "#15191F",
+        "stroke": "#E2E8F0",
+        "font": "#F8FAFC"
+      },
+      {
+        "title": "Standard · Grau",
+        "fill": "#F1F5F9",
+        "stroke": "#64748B",
+        "font": "#334155"
+      },
+      {
+        "title": "Hinweis · Blau",
+        "fill": "#E0F2FE",
+        "stroke": "#0284C7",
+        "font": "#075985"
+      },
+      {
+        "title": "OK · Grün",
+        "fill": "#DCFCE7",
+        "stroke": "#16A34A",
+        "font": "#14532D"
+      },
+      {
+        "title": "Warnung · Gelb",
+        "fill": "#FEF3C7",
+        "stroke": "#D97706",
+        "font": "#78350F"
+      },
+      {
+        "title": "Fehler · Rot",
+        "fill": "#FEE2E2",
+        "stroke": "#DC2626",
+        "font": "#7F1D1D"
+      }
+    ]
   ]
 }
