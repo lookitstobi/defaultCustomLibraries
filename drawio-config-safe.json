@@ -1,0 +1,41 @@
+{
+  "version": "AV-backup-no-style-palettes",
+  "defaultLibraries": "general;basic;arrows2",
+  "enabledLibraries": [
+    "general",
+    "basic",
+    "arrows2"
+  ],
+  "defaultCustomLibraries": [
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F01_Basis.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F02_Audio.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F03_Video.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F04_Netzwerk_Steuerung.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F05_Stecker_Kabel.xml",
+    "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flookitstobi%2FdefaultCustomLibraries%2Fmain%2F06_Patchfelder_Layout.xml"
+  ],
+  "appendCustomLibraries": false,
+  "expandLibraries": false,
+  "defaultGridEnabled": true,
+  "defaultGridSize": 10,
+  "defaultConnectionArrowsEnabled": false,
+  "sidebarWidth": 320,
+  "sidebarTitles": true,
+  "sidebarTitleSize": 11,
+  "thumbWidth": 100,
+  "thumbHeight": 70,
+  "customPresetColors": [
+    "64748B",
+    "2563EB",
+    "7C3AED",
+    "0891B2",
+    "D97706",
+    "0F766E",
+    "8292A6",
+    "EFF6FF",
+    "F5F3FF",
+    "ECFEFF",
+    "FFF7ED",
+    "F0FDFA"
+  ]
+}
