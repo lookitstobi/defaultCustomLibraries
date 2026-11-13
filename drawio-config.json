@@ -23,5 +23,157 @@
   "sidebarTitles": true,
   "sidebarTitleSize": 11,
   "thumbWidth": 100,
-  "thumbHeight": 70
+  "thumbHeight": 70,
+  "customColorSchemes": [
+    {
+      "title": "AV · Neutral",
+      "fill": "#F8FAFC",
+      "stroke": "#64748B",
+      "font": "#334155"
+    },
+    {
+      "title": "AV · Audio",
+      "fill": "#EFF6FF",
+      "stroke": "#2563EB",
+      "font": "#1E3A8A"
+    },
+    {
+      "title": "AV · Video",
+      "fill": "#F5F3FF",
+      "stroke": "#7C3AED",
+      "font": "#5B21B6"
+    },
+    {
+      "title": "AV · Netzwerk",
+      "fill": "#ECFEFF",
+      "stroke": "#0891B2",
+      "font": "#155E75"
+    },
+    {
+      "title": "AV · Steuerung",
+      "fill": "#FFF7ED",
+      "stroke": "#D97706",
+      "font": "#92400E"
+    },
+    {
+      "title": "AV · Eingang",
+      "fill": "#F0FDFA",
+      "stroke": "#0F766E",
+      "font": "#115E59"
+    },
+    {
+      "title": "AV · Installation",
+      "fill": "#F1F5F9",
+      "stroke": "#8292A6",
+      "font": "#334155"
+    }
+  ],
+  "styles": [
+    {},
+    {
+      "commonStyle": {
+        "fillColor": "#F8FAFC",
+        "strokeColor": "#64748B",
+        "fontColor": "#334155"
+      },
+      "edgeStyle": {
+        "strokeColor": "#64748B",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    },
+    {
+      "commonStyle": {
+        "fillColor": "#EFF6FF",
+        "strokeColor": "#2563EB",
+        "fontColor": "#1E3A8A"
+      },
+      "edgeStyle": {
+        "strokeColor": "#2563EB",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    },
+    {
+      "commonStyle": {
+        "fillColor": "#F5F3FF",
+        "strokeColor": "#7C3AED",
+        "fontColor": "#5B21B6"
+      },
+      "edgeStyle": {
+        "strokeColor": "#7C3AED",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    },
+    {
+      "commonStyle": {
+        "fillColor": "#ECFEFF",
+        "strokeColor": "#0891B2",
+        "fontColor": "#155E75"
+      },
+      "edgeStyle": {
+        "strokeColor": "#0891B2",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    },
+    {
+      "commonStyle": {
+        "fillColor": "#FFF7ED",
+        "strokeColor": "#D97706",
+        "fontColor": "#92400E"
+      },
+      "edgeStyle": {
+        "strokeColor": "#D97706",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    },
+    {
+      "commonStyle": {
+        "fillColor": "#F0FDFA",
+        "strokeColor": "#0F766E",
+        "fontColor": "#115E59"
+      },
+      "edgeStyle": {
+        "strokeColor": "#0F766E",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    },
+    {
+      "commonStyle": {
+        "fillColor": "#F1F5F9",
+        "strokeColor": "#8292A6",
+        "fontColor": "#334155"
+      },
+      "edgeStyle": {
+        "strokeColor": "#8292A6",
+        "fillColor": "none",
+        "endArrow": "none",
+        "startArrow": "none"
+      }
+    }
+  ],
+  "customPresetColors": [
+    "64748B",
+    "2563EB",
+    "7C3AED",
+    "0891B2",
+    "D97706",
+    "0F766E",
+    "8292A6",
+    "EFF6FF",
+    "F5F3FF",
+    "ECFEFF",
+    "FFF7ED",
+    "F0FDFA"
+  ]
 }
