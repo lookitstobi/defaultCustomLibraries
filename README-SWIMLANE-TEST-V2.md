@@ -8,8 +8,8 @@ Jeder bisherige Anschluss und sein Text stehen nun auf **relativer Geometrie** m
 
 ## 2. Neutraler, fester Body und hellgraue Labels
 
-- **Lane-/Bodyfarbe:** `#191919` – neutral dunkelgrau (R=G=B).
-- **Beschriftungen der Children:** `#C8C8C8` – neutral hellgrau (R=G=B).
+- **Lane-/Bodyfarbe:** `light-dark(#E8E8E8,#191919)` – hellgrau im Light Mode, dunkelgrau im Dark Mode.
+- **Beschriftungen der Children:** `light-dark(#333333,#C8C8C8)` – dunkelgrau im Light Mode, hellgrau im Dark Mode.
 - Beide Werte stehen jetzt direkt im Style und werden **nicht mehr durch Datenfelder gesteuert**.
 - Über **Daten bearbeiten** sind weiterhin `avHeader`, `avOutline` und `avTitle` veränderbar. Headerfüllung und Rahmen können damit Akzentfarben behalten.
 - Die Anschlusskreise behalten ihre Signalfarben (Eingang türkis, Ausgang blau).
@@ -20,7 +20,7 @@ Jeder bisherige Anschluss und sein Text stehen nun auf **relativer Geometrie** m
 1. `00_TEST_Swimlane_v2.xml` in draw.io als Library laden (oder `TEST_Swimlane_v2.drawio` öffnen).
 2. Breite des Automixers vergrößern: rechte Ports und ihre Labels sollen rechts bleiben; linke Ports und Beschriftungen links.
 3. Container verschieben und drehen, Kabelverbindungen zu den Anschlusskreisen prüfen.
-4. Einen Farb-Preset auf dem Swimlane-Parent testen: Der Body bleibt `#191919`, die Child-Beschriftungen bleiben `#C8C8C8`.
+4. Zwischen Light und Dark Mode wechseln: Der Body soll von `#E8E8E8` zu `#191919` wechseln und die Child-Schrift von `#333333` zu `#C8C8C8`. Header- und Rahmen-Akzent bleiben separat editierbar.
 5. Bei Bedarf `avHeader` und `avOutline` unter **Daten bearbeiten** anpassen. Die Child-Portfarben bleiben absichtlich nach Signalrichtung codiert.
 
 Kein automatisches Verkleinern der Schrift bei schmalen Containern. Header- und Porttexte können bei sehr geringer Breite umbrechen oder abgeschnitten werden.
