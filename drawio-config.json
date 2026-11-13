@@ -24,54 +24,6 @@
   "sidebarTitleSize": 11,
   "thumbWidth": 100,
   "thumbHeight": 70,
-  "customColorSchemes": [
-    [
-      {
-        "title": "AV · Neutral",
-        "fill": "#F8FAFC",
-        "stroke": "#64748B",
-        "font": "#334155"
-      },
-      {
-        "title": "AV · Audio",
-        "fill": "#EFF6FF",
-        "stroke": "#2563EB",
-        "font": "#1E3A8A"
-      },
-      {
-        "title": "AV · Video",
-        "fill": "#F5F3FF",
-        "stroke": "#7C3AED",
-        "font": "#5B21B6"
-      },
-      {
-        "title": "AV · Netzwerk",
-        "fill": "#ECFEFF",
-        "stroke": "#0891B2",
-        "font": "#155E75"
-      },
-      {
-        "title": "AV · Steuerung",
-        "fill": "#FFF7ED",
-        "stroke": "#D97706",
-        "font": "#92400E"
-      },
-      {
-        "title": "AV · Eingang",
-        "fill": "#F0FDFA",
-        "stroke": "#0F766E",
-        "font": "#115E59"
-      }
-    ],
-    [
-      {
-        "title": "AV · Installation",
-        "fill": "#F1F5F9",
-        "stroke": "#8292A6",
-        "font": "#334155"
-      }
-    ]
-  ],
   "customPresetColors": [
     "64748B",
     "2563EB",
