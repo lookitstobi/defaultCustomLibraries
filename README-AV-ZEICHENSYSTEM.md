@@ -46,3 +46,11 @@ Nach dem Aufruf erscheint die Vorlagenvorschau bzw. der Dialog für eine neue Ze
 - **Wichtige Einschränkung:** Ein einzelner Verbindungspunkt begrenzt in draw.io nicht die Anzahl gleichzeitig angeschlossener Linien. Die Darstellung führt sie auf denselben Mittelpunkt, erzwingt aber nicht „maximal ein Kabel“.
 - Ghielmetti-Kanallayouts sind schematische Planbausteine, keine mechanisch exakten Frontplattenzeichnungen. Normalisierung ist bewusst nicht vorausgewählt.
 - Bestehende Zeichnungsdateien enthalten weiterhin die bisher eingefügten Shapes. Ersetze diese aus der aktualisierten Library, wenn du die neuen Anschlussregeln brauchst.
+
+## Update: 4-Port-Switch, feste Hausverbindungen, skalierbare Gruppen
+
+- Neuer herstellerneutraler **Netzwerk-Switch 4-Port** in `04_Netzwerk_Steuerung.xml`: vier physische, frei beschriftbare RJ45/Ethernet-Port-Symbole, ohne zusätzlichen fünften Uplink-Port.
+- Zwei neue Assets in `06_Patchfelder_Layout.xml`: **Hausverbindung fest · Duplex TX/RX** (zwei gerichtete Signalwege mit kreuzender TX/RX-Beschriftung) und **Hausverbindung fest · Simplex** (ein gerichteter Signalweg), jeweils mit zwei gegenüberliegenden Orts-/Feldkästen und externen Anschlusskreisen. Alle Labels sind editierbar.
+- Gruppenstile der vorhandenen Assets: `recursiveResize=1`, `resizable=1`, `rotatable=1`. Damit werden Kinder beim proportionalen Skalieren und Rotieren als Gruppe mitgeführt. Bislang gesperrte Child-Transformations-Flags (`resizable=0`, `rotatable=0`, `movable=0`) wurden in den Container-Assets entfernt; Port-Connection-Points bleiben mittig.
+- Beschriftungen in Gerätecontainern: `whiteSpace=wrap;overflow=hidden`, damit überlaufender Text nicht außerhalb der vorgesehenen Felder gezeichnet wird. **Wichtig:** draw.io bietet keine zuverlässige native automatische Verringerung der Schriftgröße abhängig von der Containergröße. Bei extremer Verkleinerung bleibt die Schriftgröße gleich; Text bricht um oder wird abgeschnitten. Schriftgröße bei Bedarf über den Text-Tab anpassen. Beim proportionalen Resize möglichst die Seitenverhältnisse beibehalten.
+- Bereits in Zeichnungen eingefügte Assets werden durch Updates an der Library nicht automatisch ersetzt.
